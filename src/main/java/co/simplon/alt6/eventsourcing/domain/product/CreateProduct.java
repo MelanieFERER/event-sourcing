@@ -4,7 +4,7 @@ import java.util.UUID;
 
 import co.simplon.alt6.eventsourcing.domain.DomainEvent;
 
-public class CreateProduct extends DomainEvent<Product> {
+public class CreateProduct extends DomainEvent {
     private Double price;
     private String label;
     private Integer quantity;

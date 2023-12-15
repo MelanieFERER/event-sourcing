@@ -2,7 +2,7 @@ package co.simplon.alt6.eventsourcing.domain;
 
 import java.util.UUID;
 
-public abstract class DomainEvent<T> {
+public abstract class DomainEvent {
     private UUID uuid;
     private Long timestamp = System.currentTimeMillis();
 

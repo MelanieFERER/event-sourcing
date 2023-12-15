@@ -1,6 +1,6 @@
 package co.simplon.alt6.eventsourcing.domain;
 
-public interface Publisher<T> {
+public interface Publisher {
 
-    void publish(DomainEvent<T> event);
+    void publish(DomainEvent event);
 }
